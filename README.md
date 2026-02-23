@@ -14,16 +14,16 @@ Install skills using the [skills CLI](https://github.com/vercel-labs/skills):
 
 ```bash
 # Install all skills
-npx skills add TechTown/skills
+npx skills add techtown-fr/skills
 
 # Install a specific skill
-npx skills add TechTown/skills --skill techtown-brand-guidelines
+npx skills add techtown-fr/skills --skill techtown-brand-guidelines
 
 # Install to a specific agent (e.g., GitHub Copilot)
-npx skills add TechTown/skills -a github-copilot
+npx skills add techtown-fr/skills -a github-copilot
 
 # List available skills without installing
-npx skills add TechTown/skills --list
+npx skills add techtown-fr/skills --list
 ```
 
 ## Creating a New Skill
