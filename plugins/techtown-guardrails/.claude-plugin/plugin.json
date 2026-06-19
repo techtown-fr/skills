@@ -1,0 +1,14 @@
+{
+  "name": "techtown-guardrails",
+  "displayName": "TechTown Guardrails",
+  "version": "0.1.0",
+  "description": "Garde-fous Claude Code pour les projets TechTown : bloque l'écriture de secrets (.env, service-account, credentials) et applique terraform fmt après édition des fichiers .tf.",
+  "author": {
+    "name": "TechTown",
+    "email": "ai@techtown.fr",
+    "url": "https://techtown.fr"
+  },
+  "license": "MIT",
+  "keywords": ["techtown", "security", "secrets", "terraform", "guardrails"],
+  "hooks": "./hooks/hooks.json"
+}

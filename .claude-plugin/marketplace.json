@@ -1,0 +1,15 @@
+{
+  "name": "techtown",
+  "owner": {
+    "name": "TechTown",
+    "email": "ai@techtown.fr",
+    "url": "https://techtown.fr"
+  },
+  "plugins": [
+    {
+      "name": "techtown-guardrails",
+      "source": "./plugins/techtown-guardrails",
+      "description": "Garde-fous TechTown : blocage de l'écriture de secrets (.env, credentials) + terraform fmt automatique"
+    }
+  ]
+}
