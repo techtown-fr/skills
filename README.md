@@ -2,6 +2,12 @@
 
 A collection of reusable agent skills for TechTown projects.
 
+## Source canonique
+
+Le contenu de marque fait référence dans `techtown-fr/techtown-marketplace`, plugin
+`brand-guidelines`. Ce dépôt en est l'export pour les agents que le marketplace ne sert pas.
+Une modification de la charte part du marketplace, puis se reporte ici.
+
 ## Available Skills
 
 | Skill                                                         | Description                                 |

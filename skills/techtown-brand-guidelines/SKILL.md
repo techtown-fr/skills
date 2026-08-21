@@ -1,13 +1,17 @@
 ---
 name: techtown-brand-guidelines
-description: TechTown brand and design system guidelines. Use when creating UI components, styling pages, generating marketing materials, or implementing visual design for TechTown projects. Covers colors, typography, spacing, components, and logo usage.
+description: TechTown brand and design system guidelines for agents outside the TechTown marketplace (GitHub Copilot, Cursor and others). Use when creating UI components, styling pages, generating marketing materials, or implementing visual design for TechTown projects. Covers colors, typography, spacing, components, and logo usage.
 metadata:
   author: techtown
-  version: "1.0"
+  version: "1.1"
 license: Proprietary. LICENSE.txt has complete terms
 ---
 
 # TechTown Brand Guidelines
+
+> Source canonique : `techtown-fr/techtown-marketplace`, plugin `brand-guidelines`.
+> Toute modification de la marque part de là et se reporte ici. Ce dépôt existe pour le canal
+> `npx skills add`, que le marketplace ne sait pas servir.
 
 ## Overview
 
@@ -19,7 +23,7 @@ TechTown is a French tech consulting company specializing in Cloud & AI expertis
 
 | Name             | Hex       | CSS Variable           | Usage                                     |
 | ---------------- | --------- | ---------------------- | ----------------------------------------- |
-| **Primary Blue** | `#1C62ED` | `--color-primary`      | Primary brand color, CTAs, links, accents |
+| **Primary Blue** | `#1C63ED` | `--color-primary`      | Primary brand color, CTAs, links, accents |
 | **Primary Dark** | `#1557D6` | `--color-primary-dark` | Hover states, emphasis                    |
 | **Accent Blue**  | `#3B7EFF` | `--color-accent`       | Secondary highlights                      |
 | **White**        | `#FFFFFF` | `--color-background`   | Backgrounds, text on dark                 |
@@ -161,7 +165,7 @@ Default line height: `1.6` for body text, `1.4` for headings.
 ```css
 .btn {
   padding: var(--spacing-sm) var(--spacing-lg); /* 12px 24px */
-  background-color: var(--color-primary); /* #1C62ED */
+  background-color: var(--color-primary); /* #1C63ED */
   color: white;
   border-radius: var(--border-radius); /* 8px */
   font-weight: var(--font-weight-medium); /* 500 */
@@ -370,7 +374,7 @@ background: var(--texture-noise-light) var(--color-primary);
 
 1. **Consistency**: Always use CSS variables instead of hardcoded values
 2. **Accessibility**: Ensure sufficient color contrast (WCAG AA minimum)
-3. **Primary Blue Usage**: Reserve `#1C62ED` for interactive elements and brand emphasis
+3. **Primary Blue Usage**: Reserve `#1C63ED` for interactive elements and brand emphasis
 4. **White Space**: Use generous spacing for clean, modern feel
 5. **Typography Hierarchy**: Clear visual hierarchy using font weights and sizes
 6. **Hover States**: Apply subtle transitions (0.2-0.3s ease) for interactive elements
