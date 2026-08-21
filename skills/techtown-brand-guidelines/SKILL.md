@@ -250,8 +250,8 @@ Circular icons with primary background and texture:
   height: 100px;
 }
 .icon--lg {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
 }
 ```
 
